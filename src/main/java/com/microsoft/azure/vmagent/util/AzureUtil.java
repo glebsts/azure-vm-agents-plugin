@@ -56,7 +56,7 @@ public final class AzureUtil {
 
     public static final String VAL_ADMIN_USERNAME = "([a-zA-Z0-9_-]{3,15})";
 
-    public static final String VAL_TEMPLATE = "^[a-z][a-z0-9-]*[a-z0-9]$";
+    public static final String VAL_TEMPLATE = "^[a-z][a-z0-9-]*[a-z0-9-]$";
 
     public static final int STORAGE_ACCOUNT_MIN_LENGTH = 3;
     public static final int STORAGE_ACCOUNT_MAX_LENGTH = 24;
